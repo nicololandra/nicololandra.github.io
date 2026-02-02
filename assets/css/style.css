@@ -1,0 +1,23 @@
+body {
+  font-family: system-ui, sans-serif;
+  max-width: 900px;
+  margin: 40px auto;
+  line-height: 1.6;
+}
+
+nav a {
+  margin-right: 20px;
+  text-decoration: none;
+  font-weight: 600;
+}
+
+.gallery {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+  gap: 15px;
+}
+
+.gallery img {
+  width: 100%;
+  border-radius: 6px;
+}
