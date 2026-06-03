@@ -98,8 +98,7 @@ main {
   grid-template-columns: minmax(0, 1.03fr) minmax(320px, 0.97fr);
   gap: clamp(30px, 5vw, 70px);
   align-items: center;
-  min-height: calc(100vh - 96px);
-  padding: 24px 0 56px;
+  padding: clamp(36px, 6vw, 68px) 0 clamp(54px, 7vw, 82px);
 }
 
 .hero-copy h1,
@@ -107,8 +106,8 @@ main {
   max-width: 12.5em;
   margin: 0;
   font-family: Georgia, "Times New Roman", serif;
-  font-size: clamp(2.7rem, 4.7vw, 4.8rem);
-  line-height: 1;
+  font-size: clamp(2.55rem, 4vw, 4.1rem);
+  line-height: 1.04;
   letter-spacing: 0;
 }
 
@@ -128,7 +127,7 @@ main {
 
 .lede {
   max-width: 700px;
-  margin: 24px 0 0;
+  margin: 20px 0 0;
   color: var(--muted);
   font-size: clamp(1.12rem, 2vw, 1.35rem);
 }
@@ -137,7 +136,7 @@ main {
   display: flex;
   flex-wrap: wrap;
   gap: 12px;
-  margin-top: 34px;
+  margin-top: 26px;
 }
 
 .button {
