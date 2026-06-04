@@ -3,72 +3,123 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta name="description" content="Nicolò Landra: scientific research and illustration portfolio.">
-  <title>Nicolò Landra | Research & Illustration</title>
+  <meta name="description" content="Nicolò Landra, sensing and algorithms engineer working on real-time systems and motion analysis.">
+  <title>Nicolò Landra</title>
   <link rel="stylesheet" href="assets/css/style.css">
 </head>
 <body>
   <header class="site-header">
-    <a class="brand" href="index.html" aria-label="Nicolò Landra home">Nicolò Landra</a>
+    <a class="brand" href="index.html">Nicolò Landra</a>
     <nav class="site-nav" aria-label="Main navigation">
-      <a href="research.html">Research</a>
-      <a href="illustration.html">Illustration</a>
+      <a href="#publications">Publications</a>
+      <a href="mailto:nicolo.landra@polito.it">Email</a>
     </nav>
   </header>
 
   <main>
     <section class="hero">
-      <div class="hero-copy">
-        <p class="eyebrow">Scientific research · Illustration</p>
-        <h1>Investigating movement, bodies, and systems through sensors and images.</h1>
-        <p class="lede">
-          I work across wearable sensing, biomedical engineering, and visual storytelling,
-          translating complex ideas into measured signals, prototypes, and illustrated worlds.
-        </p>
-        <div class="hero-actions" aria-label="Primary links">
-          <a class="button primary" href="research.html">View research</a>
-          <a class="button secondary" href="illustration.html">View illustration</a>
-        </div>
-      </div>
-
-      <div class="hero-gallery" aria-label="Selected illustration previews">
-        <img src="assets/images/portfolio/science-electro-chemistry.jpg" alt="Science-themed illustration preview">
-        <img src="assets/images/portfolio/human-vs-nature.jpg" alt="Human and nature illustration preview">
-        <img src="assets/images/portfolio/jam-session.jpg" alt="Music illustration preview">
+      <p class="eyebrow">Sensing & Algorithms Engineer</p>
+      <h1>Real-time systems and motion analysis for wearable sensing.</h1>
+      <p class="meta">PhD in Electrical Engineering, Politecnico di Torino. Expected July 2026.</p>
+      <div class="links" aria-label="Profile links">
+        <a href="mailto:nicolo.landra@polito.it">nicolo.landra@polito.it</a>
+        <span>ORCID</span>
+        <span>ResearchGate</span>
+        <span>LinkedIn</span>
       </div>
     </section>
 
-    <section class="dual-paths" aria-label="Main areas of work">
-      <article class="path-panel research-panel">
-        <p class="eyebrow">Research</p>
-        <h2>Wearable systems for understanding human movement.</h2>
-        <p>
-          My research focuses on low-power wearable sensing, IMU and sEMG data, synchronization,
-          and tools for joint angle estimation and rehabilitation monitoring.
-        </p>
-        <a class="text-link" href="research.html">Explore scientific work</a>
-      </article>
-
-      <article class="path-panel illustration-panel">
-        <p class="eyebrow">Illustration</p>
-        <h2>Images for concepts, culture, science, and everyday stories.</h2>
-        <p>
-          My illustration work spans science, environmental themes, travel, music, sports,
-          and conceptual narratives, with a strong graphic and editorial sensibility.
-        </p>
-        <a class="text-link" href="illustration.html">Browse the portfolio</a>
-      </article>
+    <section class="section">
+      <h2>Focus</h2>
+      <ul class="inline-list">
+        <li>Wearable sensors</li>
+        <li>Sensor fusion</li>
+        <li>Kinematic estimation</li>
+        <li>Synchronization</li>
+        <li>Experimental validation</li>
+        <li>Human-machine interaction</li>
+      </ul>
     </section>
 
-    <section class="bridge-section">
-      <div>
-        <p class="eyebrow">Where they meet</p>
-        <h2>Research and illustration are two ways of making hidden structures visible.</h2>
+    <section class="section">
+      <h2>Experience</h2>
+      <div class="items">
+        <article class="item">
+          <h3>PhD Researcher</h3>
+          <p>Politecnico di Torino · November 2022-present</p>
+          <ul>
+            <li>SharkTooth: BLE-based synchronization for distributed wireless sensor networks.</li>
+            <li>Magnetometer-free joint kinematics with closed-form heading correction.</li>
+            <li>Real-time IMU-driven teleoperation of a MuJoCo musculoskeletal arm model.</li>
+          </ul>
+        </article>
+
+        <article class="item">
+          <h3>Visiting Researcher</h3>
+          <p>Massachusetts General Hospital & Spaulding Rehabilitation Hospital · August 2024-February 2025</p>
+          <ul>
+            <li>Wearable IMU pipelines for quantitative movement-disorder assessment.</li>
+            <li>Clinical dataset analysis, visualization, and algorithm validation.</li>
+          </ul>
+        </article>
+
+        <article class="item">
+          <h3>M.Sc. Thesis Project</h3>
+          <p>Politecnico di Torino · March 2021-December 2021</p>
+          <ul>
+            <li>sEMG calibration for functional electrical stimulation and motion-analysis validation.</li>
+          </ul>
+        </article>
       </div>
-      <p>
-        Whether the material is a biosignal, a prototype, a body in motion, or a visual metaphor,
-        the goal is the same: observe carefully, extract structure, and communicate it clearly.
-      </p>
+    </section>
+
+    <section class="section">
+      <h2>Education</h2>
+      <div class="items compact">
+        <article class="item">
+          <h3>Ph.D. in Electrical Engineering</h3>
+          <p>Politecnico di Torino · 2022-present · expected July 2026</p>
+        </article>
+        <article class="item">
+          <h3>M.Sc. in Biomedical Engineering</h3>
+          <p>Politecnico di Torino · 2019-2021 · 110/110 summa cum laude</p>
+        </article>
+        <article class="item">
+          <h3>B.Sc. in Biomedical Engineering</h3>
+          <p>Politecnico di Torino · 2016-2019 · 110/110 summa cum laude</p>
+        </article>
+      </div>
+    </section>
+
+    <section class="section" id="publications">
+      <h2>Publications</h2>
+      <ol class="publications">
+        <li>N. Landra, B. L. Pugliese, A. Colucci, V. Civeriati, D. Demarchi, P. Bonato, and P. Motto Ros, “A Real-Time Joint Angle Estimation Algorithm for Muscle-Aligned Wireless IMU Nodes,” under review at IEEE Transactions on Neural Systems and Rehabilitation Engineering, 2026.</li>
+        <li>N. Landra, D. Demarchi, and P. Motto Ros, “SharkTooth: A Scalable Real-Time Algorithm for BLE-Based Wireless Body Sensor Networks Synchronization,” IEEE Internet of Things Journal, 2025. doi: 10.1109/JIOT.2025.3602162.</li>
+        <li>N. Landra, A. Prestia, A. Mongardi, F. Rossi, D. Demarchi, and P. Motto Ros, “A Biomimetic Multichannel Synergistic Calibration for Event-Driven Functional Electrical Stimulation,” IEEE BioCAS, 2022.</li>
+        <li>F. Rossi, A. Prestia, A. Mongardi, N. Landra, P. Motto Ros, and D. Demarchi, “Live Demonstration: A Real-Time Bio-Mimetic System for Multichannel FES Control,” IEEE BioCAS, 2022.</li>
+      </ol>
+    </section>
+
+    <section class="section">
+      <h2>Skills</h2>
+      <ul class="inline-list">
+        <li>Python</li>
+        <li>C</li>
+        <li>MATLAB</li>
+        <li>C#</li>
+        <li>NumPy</li>
+        <li>SciPy</li>
+        <li>Pandas</li>
+        <li>PyTorch</li>
+        <li>MuJoCo</li>
+        <li>FreeRTOS</li>
+        <li>BLE</li>
+        <li>CMSIS-DSP</li>
+        <li>Unity</li>
+        <li>Meta Quest</li>
+        <li>LSL</li>
+      </ul>
     </section>
   </main>
 </body>
